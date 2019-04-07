@@ -1,0 +1,57 @@
+.App-header {
+  height: 100px;
+  background-color: #333;
+  color: whitesmoke;
+  margin-bottom: 15px;
+  text-align: center;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+  font-family: Roboto, sans-serif;  
+}
+
+.App-body {
+  margin: 10px;
+  padding: 10px;
+  border: solid 1px grey;
+  font-family: Roboto, sans-serif;
+}
+.App-body-Register {
+  margin: 10px;
+  padding: 10px;
+  border: solid 1px grey;
+  background-color: aquamarine;
+}
+.App-body-Login {
+  margin: 10px;
+  padding: 10px;
+  border: solid 1px grey;
+  background-color: lightsalmon;
+}
+.App-body-TodoList {
+  margin: 10px;
+  padding: 10px;
+  border: solid 1px grey;
+  background-color: lightblue;
+}
+.App-body-TodoItem {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 20px 0;
+  width: 70%;
+  border-bottom: 1px solid #cecece;
+}
+.App-body-AddItem {
+  margin: 10px;
+  padding: 10px;
+  border: solid 1px grey;
+  background-color: lightpink;
+}
+.App-body-DelItem {
+  margin: 10px;
+  padding: 10px;
+  border: solid 1px grey;
+  background-color: lightgoldenrodyellow;
+}
