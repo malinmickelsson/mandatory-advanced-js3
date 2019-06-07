@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './App.css';
+import './Styles.css';
 // import components
 import Register from './components/Register';
 import Login from './components/Login';

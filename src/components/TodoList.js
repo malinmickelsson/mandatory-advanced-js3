@@ -8,11 +8,11 @@ function TodoList() {
             <input type="text" placeholder="Add a new item"/>
             <button>Add item</button>
 
-            <TodoItem/>
-            <TodoItem/>
-            <TodoItem/>
-            <TodoItem/>
-            <TodoItem/>
+            <TodoItem />
+            <TodoItem />
+            <TodoItem />
+            <TodoItem />
+            <TodoItem />
         </div>
     )
 };
