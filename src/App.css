@@ -17,23 +17,31 @@
   border: solid 1px grey;
   font-family: Roboto, sans-serif;
 }
-.App-body-Register {
+.App-body-Register {          display: none;
   margin: 10px;
   padding: 10px;
   border: solid 1px grey;
   background-color: aquamarine;
 }
-.App-body-Login {
+.App-body-Login {          display: none;
   margin: 10px;
   padding: 10px;
   border: solid 1px grey;
   background-color: lightsalmon;
 }
 .App-body-TodoList {
-  margin: 10px;
+  background-color: white;
+  margin: auto;
   padding: 10px;
-  border: solid 1px grey;
-  background-color: lightblue;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: solid 1px #efefef;
+  box-shadow: 1px 1px rgba(0,0,0,0.15)
+}
+input {
+  border-radius: 5px;
 }
 .App-body-TodoItem {
   display: flex;
@@ -42,16 +50,26 @@
   padding: 30px 20px 0;
   width: 70%;
   border-bottom: 1px solid #cecece;
+  font-weight: 100;
 }
-.App-body-AddItem {
+.TodoItem-button {
+  margin-left: 10px;
+}
+.App-body-AddItem {          display: none;
   margin: 10px;
   padding: 10px;
   border: solid 1px grey;
   background-color: lightpink;
 }
-.App-body-DelItem {
+.App-body-DelItem {          display: none;
   margin: 10px;
   padding: 10px;
   border: solid 1px grey;
   background-color: lightgoldenrodyellow;
+}
+
+
+
+button {
+  border-radius: 5px;
 }

@@ -5,7 +5,8 @@ function TodoItem() {
     	<div className="App-body-TodoItem"> 
             
             <input type="checkbox" value="option1" /*checked={true}*/ />
-            <label>Placeholder text here</label>
+            <label>item</label>
+            <button className="TodoItem-button">Delete</button>
 
         </div>
     )

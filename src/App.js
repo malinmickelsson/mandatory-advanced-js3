@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
 import './App.css';
 // import components
-import Register from './Register';
-import Login from './Login';
-import TodoList from './TodoList';
-import AddItem from './AddItem';
-import DelItem from './DelItem';
+import Register from './components/Register';
+import Login from './components/Login';
+import TodoList from './components/TodoList';
+import AddItem from './components/AddItem';
+import DelItem from './components/DelItem';
 
 
 
